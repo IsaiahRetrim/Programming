@@ -1,8 +1,7 @@
 package Programming;
 
-import java.applet.Applet;
 import java.util.Scanner;
-public class BelliumioBot extends Applet{
+public class BelliumioBot   {
     static final double DEVMPCOST = 1.15;
 
     static int bases = 0;
@@ -11,18 +10,18 @@ public class BelliumioBot extends Applet{
     static int tanks = 0;
     static int airfields = 0;
 
-    static double  baseMpMadeTotal = 0;
+    static double baseMpMadeTotal = 0;
     static double baseTotalCost = 0;
-    static double  squadMpMadeTotal = 0;
-    static double squadTotalCost= 0;
-    static double  soldierMpMadeTotal;
+    static double squadMpMadeTotal = 0;
+    static double squadTotalCost = 0;
+    static double soldierMpMadeTotal;
     static double soldierTotalCost;
-    static double  tankMpMadeTotal = 0;
+    static double tankMpMadeTotal = 0;
     static double tankTotalCost = 0;
-    static double  airfieldMpMadeTotal = 0;
+    static double airfieldMpMadeTotal = 0;
     static double airfieldTotalCost = 0;
     static double soldierEfficiency = 0;
-    static double squadEfficiency= 0;
+    static double squadEfficiency = 0;
     static double tankEfficiency = 0;
     static double baseEfficiency = 0;
     static double airfieldEfficiency = 0;
@@ -47,6 +46,7 @@ public class BelliumioBot extends Applet{
         }
         return "";
     }
+
     public String Squad(double troopNumberToStopAt,double timeLeftInGame) {
         for (; squads <= troopNumberToStopAt; squads++) {
             squadMpMadeTotal= ((squads*5*60) * timeLeftInGame);
