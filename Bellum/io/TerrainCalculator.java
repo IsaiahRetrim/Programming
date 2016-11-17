@@ -8,10 +8,10 @@ public class TerrainCalculator {
 
     }
 }
-class chancesOfAnyTerrain {
-    public double chancePercent() {
-        public boolean basesWithin500K(){
-            
+class Calculate {
+
+        public  boolean basesWithin500K() {
+            return true;
         }
         public boolean basesWithin750K() {
 
@@ -22,6 +22,5 @@ class chancesOfAnyTerrain {
         public boolean basesMoreThan1000K() {
 
         }
-
     }
-}
+
